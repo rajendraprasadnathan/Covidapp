@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#0099FF" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/inversewave" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Entry Pass"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bluecor"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Helpline"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bluecor"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Dashboard Link"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bluecor"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="PM-Relief Fund"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bluecor"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Delhi CM-Relief fund"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bluecor"/>
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Signout" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_wave" />
+    </LinearLayout>
+
+</ScrollView>
